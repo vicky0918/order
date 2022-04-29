@@ -12,7 +12,7 @@ public class Order{
         this.shipFeed = delivery.price;
     }
     public int total() {
-        total = amount + delivery.price;
+        total = amount + shipFeed;
         return total;
     }
 }
